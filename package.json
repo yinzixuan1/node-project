@@ -1,0 +1,22 @@
+{
+    "type": "module",
+    "name": "kanbas-node-server-app",
+    "version": "1.0.0",
+    "description": "HTTP Server integrating with a React front end",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node App.js"
+    },
+    "author": "Minghong Xia",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "express-session": "^1.18.1",
+        "mongodb": "5.5",
+        "mongoose": "^8.8.2"
+    }
+}
